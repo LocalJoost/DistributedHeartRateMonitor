@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="HeartRate.Monitor.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HeartRate.Monitor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+  <Grid Background="{ThemeResource AppBarBackgroundThemeBrush}">
+    <Grid Margin="12,0,12,0">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+      <StackPanel Margin="0,0,0,5" Orientation="Horizontal">
+        <TextBlock TextWrapping="Wrap" Text="UWT Heart Rate Displayer" FontSize="26.667" HorizontalAlignment="Left"/>
+      </StackPanel>
+
+      <Grid Margin="12,0,12,0" Grid.Row="1">
+
+        <Grid  >
+          <Ellipse x:Name ="BlinkCircle" 
+                 Fill="Gray"
+                Height="200"
+                Width="200"
+                StrokeThickness="0" />
+        </Grid>
+      </Grid>
+    </Grid>
+  </Grid>
+</Page>
