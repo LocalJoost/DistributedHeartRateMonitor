@@ -7,7 +7,7 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="1cdfe1dc-59f0-4e40-af9d-d719bceb1d12"
+    Name="HeartrateMonitor"
     Publisher="CN=joost_000"
     Version="1.0.0.0" />
 
